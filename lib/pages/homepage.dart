@@ -35,7 +35,7 @@ class HomeView extends StatelessWidget {
                     if (productsController.products.isEmpty) {
                       return Center(child: Text("No products found"));
                     }
-                    if (productsController.showgrid.value)
+                    if (productsController.showgrid.value) {
                       return GridView.builder(
                         padding: EdgeInsets.only(top: 16),
                         gridDelegate:
@@ -105,6 +105,7 @@ class HomeView extends StatelessWidget {
                           );
                         },
                       );
+                    }
                     return _buildProductsList();
                   },
                 ),

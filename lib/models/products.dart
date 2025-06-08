@@ -12,6 +12,7 @@
 //     required this.category,
 //     required this.image,
 //   });
+// flutter build apk --build-name=2.0 --build-number=2
 
 //   factory ProductsModel.fromJson(Map<String, dynamic> json) => ProductsModel(
 //       title: json['title'],
